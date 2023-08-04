@@ -2,7 +2,7 @@ import './App.css';
 import './App.scss';
 
 // Components & Pages
-import NavBar from './components/Navbar';
+import NavBar from './components/NavBar';
 import Trending from './components/Trending';
 import SideBar from './components/Sidebar';
 import Communities from './components/Communities';
