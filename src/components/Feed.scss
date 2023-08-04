@@ -1,0 +1,59 @@
+.newsFeed {
+    background-color: white;
+  
+  &__dropDownButtons {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0;
+  
+  }
+   &__line {
+     width: 200px;
+height: 47px;
+border-top: 1px solid black;
+    }
+  &__box{
+    display:flex;
+    gap:3px;
+  }
+
+  &__article{
+    width:95%;
+    height:150px;
+    margin:0 30px;
+    padding-top: 15px;
+    background-color:	white;
+    display:block;
+    border-bottom: 1px solid black;
+
+  }
+  &__info{
+    display:flex;
+    justify-content:flex-start;
+    color:black;
+    margin:0 5px;
+    img{
+      width:30px;
+      height:30px;
+    }
+    
+  }
+  &__author{
+       margin:0 5px ;
+    }
+  &__time{
+    color:gray;
+  }
+  &__ellipses{
+    margin-left:auto;
+     color:black;
+  }
+  &__content{
+    margin-top:20px;
+    color:black;
+    text-align: left;
+  }
+  &__downArrow{
+    color:black;
+  }
+}
